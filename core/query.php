@@ -49,6 +49,20 @@ public function selectionPontoEquipe() {
   }
 }
 
+public function selectionPonto($id) {
+  try{
+      $query =  "SELECT count(ponto) as pontos FROM respostas JOIN equipe ON respostas.equipe_id_equipe = equipe.id_equipe WHERE equipe_id_equipe = {$id}";
+      $validar = Parent::getInstanceConexao()->prepare($query);
+      $validar->execute();
+
+      return $validar->fetchAll(PDO::FETCH_ASSOC);
+
+  } catch (Exception $pJ){
+    echo "EXCEÇÃO NA CONSULTA DE Equipes!";
+    return false;
+  }
+}
+
   public function selectionEquipe() {
     try{
         $query = "SELECT * FROM equipe order by id_equipe";

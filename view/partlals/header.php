@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>8ª Gincana EDUCAÇÃO PARA O CONSUMO 2018</title>
+    <title>9ª Gincana EDUCAÇÃO PARA O CONSUMO 2019</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -20,12 +20,11 @@
     <link rel="stylesheet" href="assets/css/jogo.css" media="screen" title="no title">
     <script src="assets/js/perguntas.js" charset="utf-8"></script>
   </head>
-
 <body>
   <div class="navbar navbar-inverse navbar-fixed-top">
   <div class="container">
     <div class="navbar-header">
-      <a class="navbar-brand" href="/" >8ª Gincana EDUCAÇÃO PARA O CONSUMO 2018</a>
+      <a class="navbar-brand" href="/" >9ª Gincana EDUCAÇÃO PARA O CONSUMO 2019</a>
         <ul class="list-inline">
           <?= $addPerguntas ?>
           <?= $addEquipe ?>
@@ -36,3 +35,4 @@
   </div>  
   <div class="container">
       <div class="principal">
+

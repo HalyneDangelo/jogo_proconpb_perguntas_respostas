@@ -388,3 +388,10 @@ img {
 .swal2-popup {
   font-size: 2em;
 }
+
+input{
+  height: 26px;
+  width: 52px;
+  border-radius: 6px;
+  text-align: center;
+}

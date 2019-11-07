@@ -4,7 +4,7 @@
 <?php require_once ('view/partlals/header.php') ?>
     <div  id="form-question"> </div>
     <div id="lateral">
-      <img style="margin: 14px -53px; width: 604px; height: 316px;" src="assets/img/gincanacommascote.png"  alt="" />
+      <!-- <img style="margin: 14px -53px; width: 604px; height: 316px;" src="assets/img/logo-gincana-2019.jpg"  alt="" /> -->
       <div id="pontos"></div>
       <?php  $rows = Query::selectionEquipe();
         foreach ($rows as  $row) {?>

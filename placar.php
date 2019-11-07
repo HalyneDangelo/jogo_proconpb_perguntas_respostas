@@ -8,9 +8,8 @@
       <?php  $rows = Query::selectionPontoEquipe();
             foreach ($rows as  $row) { ?>
             <tr>
-            
-       <td><h4 class="btn btn-danger" type="button">
-  <?= $row['nome_equipe'] ?><span class="badge"> <?= $row['pontos'] ?></span></h4></td>
+                <td><h4 class="btn btn-danger" type="button">
+                <?= $row['nome_equipe'] ?><span class="badge"> <?= $row['pontos'] ?></span></h4></td>
             </tr>
        <?php }
         ?>

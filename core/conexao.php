@@ -5,7 +5,7 @@ class ConexaoDb
 
     private static $SQL = "mysql:host=localhost;dbname=gincana";
     private static $USER = "root";
-    private static $PWD = "pr0c0np!@#";
+    private static $PWD = "D3vpr0c0n@";
 
     private static $conexao = null;
 

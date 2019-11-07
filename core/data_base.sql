@@ -18,7 +18,7 @@ DROP SCHEMA IF EXISTS `gincana` ;
 -- -----------------------------------------------------
 -- Schema gincana
 -- -----------------------------------------------------
-CREATE SCHEMA IF NOT EXISTS `gincana` DEFAULT CHARACTER SET utf8 ;
+CREATE SCHEMA IF NOT EXISTS `gincana`;
 USE `gincana` ;
 
 -- -----------------------------------------------------
@@ -44,11 +44,12 @@ DROP TABLE IF EXISTS `gincana`.`perguntas` ;
 
 CREATE TABLE IF NOT EXISTS `gincana`.`perguntas` (
   `id_pergunta` INT(11) NOT NULL AUTO_INCREMENT,
-  `pergunta` TEXT NOT NULL,
+  `pergunta` TEXT NOT NULL, CHARACTER SET 'utf8' NULL DEFAULT NULL,
   PRIMARY KEY (`id_pergunta`))
 ENGINE = InnoDB
 AUTO_INCREMENT = 0
-DEFAULT CHARACTER SET = utf8;
+DEFAULT CHARACTER SET = utf8
+COLLATE = utf8_unicode_ci;
 
 
 -- -----------------------------------------------------
@@ -71,7 +72,8 @@ CREATE TABLE IF NOT EXISTS `gincana`.`gabarito` (
     ON UPDATE NO ACTION)
 ENGINE = InnoDB
 AUTO_INCREMENT = 0
-DEFAULT CHARACTER SET = utf8;
+DEFAULT CHARACTER SET = utf8
+COLLATE = utf8_unicode_ci;
 
 
 -- -----------------------------------------------------
@@ -97,7 +99,8 @@ CREATE TABLE IF NOT EXISTS `gincana`.`respostas` (
     ON DELETE NO ACTION
     ON UPDATE NO ACTION)
 ENGINE = InnoDB
-DEFAULT CHARACTER SET = utf8;
+DEFAULT CHARACTER SET = utf8
+COLLATE = utf8_unicode_ci;
 
 
 SET SQL_MODE=@OLD_SQL_MODE;
