@@ -51,7 +51,7 @@ require_once ('view/partlals/header.php');
               <input type="text" id="id-campo-input-resultado" class="resultado" name="resultado">
             </td>
             <td>
-              <!-- Resultado do vencedor -->
+            <b>5 LUGAR</b>
             </td>
       </tr>
       <tr>
@@ -75,7 +75,7 @@ require_once ('view/partlals/header.php');
               <input type="text" id="id-campo-input-resultado1" class="resultado" name="resultado">
             </td>
             <td>
-              <!-- Resultado do vencedor -->
+              <b>4 LUGAR</b>
             </td>
       </tr>
       <tr>
@@ -99,7 +99,7 @@ require_once ('view/partlals/header.php');
               <input type="text" id="id-campo-input-resultado2" class="resultado" name="resultado">
             </td>
             <td>
-              <!-- Resultado do vencedor -->
+              <b>VENCEDORA</b>
             </td>
       </tr>
       <tr>
@@ -123,7 +123,7 @@ require_once ('view/partlals/header.php');
               <input type="text" id="id-campo-input-resultado3" class="resultado" name="resultado">
             </td>
             <td>
-              <!-- Resultado do vencedor -->
+              <b>2 LUGAR</b>
             </td>
       </tr>
       <tr>
@@ -147,7 +147,7 @@ require_once ('view/partlals/header.php');
               <input type="text" id="id-campo-input-resultado4" class="resultado" name="resultado">
             </td>
             <td>
-              <!-- Resultado do vencedor -->
+              <b>3 LUGAR</b>
             </td>
       </tr>
   </tbody>
